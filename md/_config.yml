@@ -1,0 +1,4 @@
+theme: jekyll-theme-time-machine
+title: 数値計算の基礎
+plugins:
+  - jekyll-sitemap
