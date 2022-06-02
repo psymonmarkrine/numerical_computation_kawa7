@@ -41,7 +41,7 @@ function make_fig(x0, num_loop)
             
     plot!(x->0, linecolor = :black)
     plot!([0, 0], [-3, 24],linecolor = :black)
-    savefig("../img/fig2-1.svg")
+    savefig("../docs/img/fig2-1.svg")
 end
 
 function plot_arrow_up(x)
