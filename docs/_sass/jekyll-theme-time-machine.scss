@@ -35,7 +35,7 @@ h1.title {
 }
 
 .wrapper {
-  width: 675px;
+  width: 875px;
   margin: 0 auto;
 }
 
@@ -411,7 +411,7 @@ footer .owner p a {
 }
 
 .markdown-body table {
-  width: 673px;
+  width: 873px;
   margin-left: -20px;
   margin-right: -20px;
 }
@@ -468,13 +468,13 @@ footer .owner p a {
 .markdown-body blockquote:before {
   font-style: italic;
   font-family: Georgia, serif;
-  font-size: 90px;
-  height: 90px;
-  margin-left: -60px;
-  margin-top: -25px;
-  content: "‟";
-  display: block;
-  float: left;
+//   font-size: 90px;
+//   height: 90px;
+  margin-left: -10px;
+  margin-top: -20px;
+//   content: "‟";
+//   display: block;
+//   float: left;
 }
 
 .markdown-body img {
