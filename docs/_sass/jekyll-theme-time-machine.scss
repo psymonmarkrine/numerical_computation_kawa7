@@ -302,6 +302,36 @@ footer .owner p a {
   font-style: italic;
 }
 
+/* summary setting */
+summary {
+  position: relative;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+summary:before,
+summary:after {
+  content: "";
+  margin: auto 0 auto 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+summary:before {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+summary:after {
+  left: 6px;
+  width: 5px;
+  height: 5px;
+  border: 4px solid transparent;
+  box-sizing: border-box;
+  transition: .1s;
+}
+
 /* Markdown */
 .markdown-body h1,
 .markdown-body h2,
