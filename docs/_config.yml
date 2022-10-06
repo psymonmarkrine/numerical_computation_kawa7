@@ -3,3 +3,5 @@ title: 数値計算の基礎
 google_analytics: G-J9T3XW00LJ
 plugins:
   - jekyll-sitemap
+kramdown:
+  parse_block_html: true
